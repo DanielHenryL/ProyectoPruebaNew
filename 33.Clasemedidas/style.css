@@ -1,0 +1,29 @@
+/* Todo archivo de css inicia asi */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* lo que hara esto es hacer que el valor del rem sea 10px por defecto */
+/* html{
+    font-size: 62.5%;
+} */
+
+
+/* Manejo de rem */
+/* p{
+    font-size: 1.6rem;
+} */
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+section{
+    width: 80%;
+    min-width: 300px;
+    max-width: 500px;
+    min-height:500px;
+    margin: auto;
+    background-color: red;
+}

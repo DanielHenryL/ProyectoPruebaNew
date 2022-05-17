@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <main>
+        <form action="" >      
+            <!-- Select se usa cuando hay pocos elemntos para escoger(option) -->
+            <select name="cursos" id="">
+                <option value="">---------------</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="HTML5">HTML5</option>
+                <option value="CSS3">CSS3</option>
+                <option value="WEB STANDAR">WEB STANDAR</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit">
+            <br>
+        </form>
+        <br>
+        <form action="">
+            <!-- Input list="" y datalist son para muchos elementos a escoger(option) -->
+            <input list="cursos2"/>
+            <datalist name="cursos2" id="cursos2">
+                <option value="JavaScript"></option>
+                <option value="HTML5"></option>
+                <option value="CSS3"></option>
+                <option value="WEB STANDAR"></option>
+            </datalist>
+            <br><br>
+            <input type="submit">
+            <br>
+            
+        </form>
+    </main>
+</body>
+</html>

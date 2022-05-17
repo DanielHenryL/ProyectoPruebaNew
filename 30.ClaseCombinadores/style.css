@@ -1,0 +1,18 @@
+/* Hermano cercano (+ -> adjacent sibling) ->busca a todos los p que este cerca a un h2, el h2 tiene que estar arriba y adyacente de un p y aplica tal estilo */
+/* h2 + p{
+    color: red;
+} */
+
+/* Hermano general (~ -> adjacent sibling) ->busca a todos los p que este por debajo a un h2 y aplica tal estilo */
+/* h2 ~ p{
+    color: red;
+} */
+
+/* Padre directo (> -> Child) -> Pon tal estilo si esta etiquta p se encuentra dentro o contenida dentro de un div */
+/* div >p{
+    color: red;
+} */
+
+div p{
+    color: red;
+}
