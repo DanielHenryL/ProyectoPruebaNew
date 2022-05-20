@@ -8,27 +8,32 @@ html{
 }
 
 .header{
-    background-color: rgb(30, 107, 131);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 6rem;
-    padding: 1.5rem;
+    padding: 0.5rem;
 }
 .header-span{
     display: inline-block;
     font-family: 'Times New Roman', Times, serif;
     font-size: 2.5rem;
-    min-width: 17rem;
+    min-width: 40%;
 }
-.header-span .header-parrafo{
-    color: beige;
+.header-span .header-imagen{
+    width: 10rem;
+    height: 5rem;
+    padding-left: 2rem;
 }
-.main-nav{
+.header-nav{
     display: inline-block;
-    width:calc(100% - 18rem);
+    position: relative;
+    bottom: 2rem;
+    width:calc(100% - 41%);
+    height: 100%;
 }
 .nav{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: end;
 }
 .nav li{
@@ -36,27 +41,84 @@ html{
 }
 .nav a{
     text-decoration: none;
-    color: aqua;
+    color: black;
+    margin: 0 1rem;
+}
+.nav a:hover{
+    color: blue;
+}
+.nav a:active{
+    color: olivedrab;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-.main-aside{
-    background-color: blueviolet;
+/* main */
+.main{
+    background-color: rgb(112, 108, 108);
+    height: 100vh;
+    width: 100%;
 }
-.main-main{
-    background-color: blue;
+
+
+/* aside */
+.aside{
+    display: inline-block;
+    background-color: rgb(32, 32, 32);
+    width: 20%;
+    padding:0.1rem;
+    font-size: 1.5rem;
+    height: 100%;
 }
+.figure-brawls{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.figure-brawls-crow{
+    min-width: 40%;
+    max-width: 70%;
+    height: 100%;
+}
+.figure-brawls-genio{
+    min-width: 40%;
+    max-width: 70%;
+    height: 100%;
+}
+.figure-brawls-primo{
+    min-width: 40%;
+    max-width: 90%;
+    height: 100%;
+}
+.aside-item {
+    background-color: rgb(112, 108, 108);
+    width: 80%;
+    height: 28%;
+    margin: 2.5rem auto;
+    padding: 1.5rem;
+}
+.main-section{
+    display: inline-block;
+    position: relative;
+    background-color: rgb(112, 108, 108);
+    width: calc(100% - 21%);
+    bottom: 29rem;
+    right: 0.2rem;
+    min-height: 90%;
+    padding: 5rem;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
 .main-footer{
-    background-color:rgb(30, 107, 131) ;
+    background-color:rgb(209, 209, 209) ;
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+}
+.main-footer span{
+    position: relative;
+    top: 1rem;
+    font-size: 1.2rem;
 }
